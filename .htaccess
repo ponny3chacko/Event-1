@@ -1,0 +1,40 @@
+RewriteEngine on
+
+RewriteRule ^Home/$ index.php [NC,L]
+RewriteRule ^Home/Request$ index.php?new=$1 [NC,L]
+
+RewriteRule ^Show/$ book.php [NC,L]
+RewriteRule ^Show/([a-zA-Z0-9\-]+)/([0-9]+)/?$ book.php?title=$1&event=$2 [NC,L]
+RewriteRule ^Show/([0-9]+)/?$ book.php?event=$1 [NC,L]
+
+RewriteRule ^Pay/$ payment.php [NC,L]
+
+
+RewriteRule ^AddEvent/$ create_event.php [NC,L]
+
+RewriteRule ^Organizer/$ organizerview.php [NC,L]
+RewriteRule ^PastEvents/$ pastevents.php/ [NC,L]
+RewriteRule ^Transactions/$ alltransactions.php/ [NC,L]
+RewriteRule ^Incomplete/$ incompletetransaction.php/ [NC,L]
+RewriteRule ^Cancel/$ canceltransaction.php/ [NC,L]
+RewriteRule ^Refuds/$ refunds.php/ [NC,L]
+
+RewriteRule ^Edit/([a-zA-Z0-9\-]+)/([0-9]+)/$ create_event.php?title=$1&event=$2 [NC,L]
+RewriteRule ^Edit/([a-zA-Z0-9\-]+)/([0-9]+)/([a-zA-Z]+)/$ create_event.php?title=$1&event=$2&pass=$3 [NC,L]
+RewriteRule ^Edit/([0-9]+)/?$ create_event.php?event=$1 [NC,L]
+
+RewriteRule ^ContactUs/$ contact.php [NC,L]
+
+RewriteRule ^Signout?$ requested/logout.php [NC,L]
+RewriteRule ^Callback?$ requested/fb-callback.php [NC,L]
+
+RewriteRule ^History/$ bookHistory.php [NC,L]
+RewriteRule ^TermsConditions/$ termsandconditions.php [NC,L]
+RewriteRule ^AboutUs/$ contact.php [NC,L]
+RewriteRule ^Privacy/$ privacy.php [NC,L]
+
+RewriteRule ^ForgotPassword/([a-zA-Z0-9\-]+)/([a-zA-Z0-9]+)/?$ change.php?user=$1&hash=$2 [NC,L]
+RewriteRule ^Profile/([a-zA-Z0-9\-.]+)/?$ myaccount.php?name=$1 [NC,L]
+RewriteRule ^Profile/([a-zA-Z0-9\-.]+)/([a-zA-Z0-9\-]+)/?$ myaccount.php?name=$1&ch=$2 [NC,L]
+
+RewriteRule ^Admin/$ admin/login.php [NC,L]

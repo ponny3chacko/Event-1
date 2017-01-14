@@ -1,0 +1,185 @@
+.on-off-switch{
+    position:relative;
+    cursor:pointer;
+    overflow:hidden;
+    user-select:none;
+}
+
+.on-off-switch-track{
+    position:absolute;
+    border : solid #888;
+    z-index:1;
+    background-color: #fff;
+    overflow:hidden;
+}
+
+/* semi transparent white overlay */
+.on-off-switch-track-white{
+    background-color:#FFF;
+    position:absolute;
+    opacity:0.2;
+    z-index:30;
+}
+/* Track for "on" state */
+.on-off-switch-track-on{
+    background-color:#009966;
+    border-color:#008844;
+    position:absolute;
+    z-index:10;
+    overflow:hidden;
+}
+/* Track for "off" state */
+.on-off-switch-track-off{
+    position:absolute;
+    border-color:#CCC;
+    z-index:1;
+}
+
+.on-off-switch-thumb{
+    position:absolute;
+    z-index:2;
+    overflow:hidden;
+}
+
+.on-off-switch-thumb-shadow{
+    opacity:0.5;
+    border:1px solid #000;
+    position:absolute;
+}
+
+.track-on-gradient, .track-off-gradient{
+
+    background: -webkit-linear-gradient(180deg,rgba(0,0,0,0.2), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0)); /* Standard syntax */
+    position:absolute;
+    width:100%;
+    height:5px;
+}
+
+
+.on-off-switch-thumb-color{
+    background: -webkit-linear-gradient(45deg, #BBB, #FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, #BBB, #FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, #BBB, #FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, #BBB, #FFF); /* Standard syntax */
+    background-color:#F0F0F0;
+    position:absolute;
+}
+
+.on-off-switch-thumb-off{
+    border-color:#AAA;
+    position:absolute;
+}
+.on-off-switch-thumb-on{
+    border-color:#008855;
+    z-index:10;
+}
+.on-off-switch-text{
+    width:100%;
+    position:absolute;
+    font-family:arial;
+    user-select:none;
+    font-size:10px;
+}
+
+.on-off-switch-text-on{
+    color:#FFF;
+    text-align:left;
+}
+.on-off-switch-text-off{
+    color:#000;
+    text-align:right;
+}
+/* Mouse over thumb effect */
+.on-off-switch-thumb-over{
+    background-color:#F5F5F5;
+    background: -webkit-linear-gradient(45deg, #CCC, #FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, #CCC, #FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, #CCC, #FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, #CCC, #FFF); /* Standard syntax */
+
+}
+.login-btn-new {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 20px;
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        margin-bottom: 5px;
+      }
+
+      .login-button p {
+        float: left;
+        font-size: 12px;
+        padding: 10px;
+        padding-left: 15px;
+        color: #053c6d;
+        width: 66%;
+        text-align: right;
+      }
+      .scrollbar2 {
+        height: 180px;
+        width: 100%;
+        /* background: #f1f1f1; */
+        overflow-y: scroll;
+        /* position: absolute; */
+        top: 38px;
+        z-index: 9;
+        padding: 8px;
+        border: 1px solid #ececec;
+        margin-bottom: 15px;
+    }
+    .style-4::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+
+  .style-4::-webkit-scrollbar
+  {
+    width: 5px;
+    background-color: #F5F5F5;
+  }
+
+  .style-4::-webkit-scrollbar-thumb
+  {
+    background-color:#000;
+    border: 1px solid #555555;
+  }
+.my-searchlist {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 5px 11px #5d5d5d;
+  }
+
+  .my-searchlist ul {
+    margin-left: -40px;
+    list-style-type: none;
+  }
+
+  .my-searchlist ul li {
+    border: 1px solid #e8e8e8;
+    color: #666;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding: 7px;
+    text-align: left;
+    text-shadow: 0 0 11px #fff;
+
+    float: left;
+    margin: 4px;
+  /*}*/

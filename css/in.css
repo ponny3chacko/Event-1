@@ -1,0 +1,120 @@
+
+.eventTermsIns{
+	display: none;
+	font-size: 30px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.eventTermsIns .tutorial{	
+	color: #4f4b4c;
+    font-size: 30px;
+}
+.eventTermsIns .tutorial img{	
+    -ms-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);      
+}
+.eventTermsIns .tutorialBtn{
+	text-align: center;
+}
+
+.detailsIns{
+    display: none;
+    font-size: 30px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.detailsIns .tutorial{   
+    color: #4f4b4c;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: -10%;
+}
+.detailsIns .tutorial img{   
+    -ms-transform: rotate(-21deg);
+    -webkit-transform: rotate(-21deg);
+    transform: rotate(-21deg);
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -7%;
+}
+.detailsIns .tutorialBtn{
+    text-align: center;
+}
+
+.eventFacebookIns{
+    display: none;
+    font-size: 30px;
+    margin-top: 16%;
+    text-align: center;
+}
+
+.eventFacebookIns .tutorial{   
+    color: #4f4b4c;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: -6%;
+}
+.eventFacebookIns .tutorial img{   
+    -ms-transform: rotate(-21deg);
+    -webkit-transform: rotate(-21deg);
+    transform: rotate(-21deg);
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -7%;
+}
+.eventFacebookIns .tutorialBtn{
+    text-align: center;
+}
+
+.eventTwitterIns{
+    display: none;
+    font-size: 30px;
+    margin-top: 19%;
+    text-align: center;
+}
+
+.eventTwitterIns .tutorial{   
+    color: #4f4b4c;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: -6%;
+}
+.eventTwitterIns .tutorial img{   
+    -ms-transform: rotate(-21deg);
+    -webkit-transform: rotate(-21deg);
+    transform: rotate(-21deg);
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -7%;
+}
+.eventTwitterIns .tutorialBtn{
+    text-align: center;
+}
+
+.publishIns{
+    display: none;
+    font-size: 30px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.publishIns .tutorial{   
+    color: #4f4b4c;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: -6%;
+}
+.publishIns .tutorial img{   
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: -1%;
+    position: absolute;
+    margin-top: -9%;
+}
+.publishIns .tutorialBtn{
+    text-align: center;
+}

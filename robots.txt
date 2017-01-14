@@ -1,0 +1,9 @@
+Sitemap: http://www.festivito.com/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /css/
+Disallow: /font-awesome/
+Disallow: /fonts/
+Disallow: /js/
+Disallow: /requested/
